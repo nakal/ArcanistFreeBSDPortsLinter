@@ -1,14 +1,14 @@
-# Portlint wrapper for [[ https://github.com/phacility/arcanist | Arcanist ]]
+# FreeBSD Portlint wrapper for [Arcanist](https://github.com/phacility/arcanist)
 
 This PHP class is a simple linter that wraps
-[[ https://www.freebsd.org/doc/en/books/porters-handbook/porting-portlint.html | portlint ]]
+[portlint](https://www.freebsd.org/doc/en/books/porters-handbook/porting-portlint.html)
 to be usable directly from Arcanist.
 
 ## Some advice
 
 This PHP class is not really usable without Arcanist which operates directly
 within the repository to generate proper code reviews using Differential to
-send a suggestion to [[ https://reviews.freebsd.org/ | FreeBSD's Phabricator ]].
+send a suggestion to [FreeBSD's Phabricator ](https://reviews.freebsd.org/).
 
 In the state it is committed on github, it expects a symlink within
 the repository. Something like: `<repo-path>/ports` -> `/usr/ports`
@@ -47,7 +47,7 @@ arc lint ports/shells/44bsd-csh/Makefile
 ## Bugs
 
 Bugs may may appear when someone tries to integrate it into the
-[[ https://reviews.freebsd.org/diffusion/P/ | FreeBSD Ports repository in Diffusion ]].
+[FreeBSD Ports repository in Diffusion](https://reviews.freebsd.org/diffusion/P/).
 
 The linter itself would work more nicely when portlint would have a more
 machine-readable output.
