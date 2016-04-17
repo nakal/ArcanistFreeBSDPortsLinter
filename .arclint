@@ -1,0 +1,15 @@
+{
+	"linters": {
+		"xhpast": {
+			"type": "xhpast",
+			"include": "(\\.php$)"
+		},
+		"php": {
+			"type": "php",
+			"include": "(\\.php$)"
+		},
+		"freebsd_ports": {
+			"type": "freebsd_ports"
+		}
+	}
+}
