@@ -49,5 +49,5 @@ arc lint ports/shells/44bsd-csh/Makefile
 Bugs may may appear when someone tries to integrate it into the
 [FreeBSD Ports repository in Diffusion](https://reviews.freebsd.org/diffusion/P/).
 
-The linter itself would work more nicely when portlint would have a more
+The linter itself would work more nicely when portlint had a more
 machine-readable output.
