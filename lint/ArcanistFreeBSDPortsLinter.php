@@ -29,8 +29,8 @@ final class ArcanistFreeBSDPortsLinter extends ArcanistLinter {
     $path = realpath($path);
     $plen = strlen($resolved_ports_root);
 
-    print('Ports are in: '.$resolved_ports_root."\n");
-    print('Matching path: '.$path."\n");
+    // print('Ports are in: '.$resolved_ports_root."\n");
+    // print('Matching path: '.$path."\n");
     $port_path = null;
     if (strncmp($path, $resolved_ports_root, $plen) == 0) {
       $port = substr($path, $plen);
